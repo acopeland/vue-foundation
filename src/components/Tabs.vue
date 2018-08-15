@@ -7,7 +7,7 @@
         <li class="tabs-title"><a href="#panel2d">Tab 2</a></li>
         <li class="tabs-title"><a href="#panel3d">Tab 3</a></li>
       </ul>
-    
+
       <div class="tabs-content" data-tabs-content="tabs">
         <div class="tabs-panel is-active" id="panel1d">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

@@ -11,7 +11,7 @@
           </ul>
         </li>
         <li><a>Item 2</a></li>
-      </ul>    
+      </ul>
     </div>
   </div>
 </template>

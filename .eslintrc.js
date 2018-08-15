@@ -9,6 +9,9 @@ module.exports = {
   env: {
     browser: true,
   },
+  rules:{
+   "linebreak-style": 0
+ },
   extends: 'airbnb-base',
   // required to lint *.vue files
   plugins: [
@@ -36,13 +39,10 @@ module.exports = {
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     // allow import with script-loader in main.js
-    'import/no-webpack-loader-syntax': 0    
+    'import/no-webpack-loader-syntax': 0
   },
   globals: {
     'Foundation': false,
     '$': false
   }
 }
-
-
-

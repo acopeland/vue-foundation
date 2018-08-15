@@ -2,7 +2,7 @@
 <template>
   <div class="grid-container">
     <div class="x-grid">
-      <h1>{{ msg }}</h1>  
+      <h1>{{ msg }}</h1>
       <div id="slider" class="slider" data-slider v-bind:data-initial-start="this.dataValue" v-bind:data-end="this.dataEnd">
         <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
         <span class="slider-fill" data-slider-fill></span>

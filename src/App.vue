@@ -14,7 +14,7 @@
         <li><router-link to="/dropdown" exact>Dropdown</router-link></li>
         <li><router-link to="/tabs" exact>Tabs</router-link></li>
         <li><router-link to="/orbit" exact>Orbit</router-link></li>
-      </ul>          
+      </ul>
     </div>
     <div class="off-canvas-content grid-container full" data-off-canvas-content>
       <div class="top-bar grid-x">
@@ -36,7 +36,7 @@
       <div class="content-wrapper">
         <router-view></router-view>
       </div>
-    
+
     </div>
   </div>
 </template>
@@ -52,10 +52,10 @@ export default {
 
 
 
-<style lang="scss">  
+<style lang="scss">
   @import './styles/global';
-  
-  // Chrome Reset 
+
+  // Chrome Reset
   a:focus {
     outline: none;
   }
@@ -73,7 +73,7 @@ export default {
   li a.menu-button {
     border-radius: 20px;
     padding-left: 1.5rem;
-    padding-right: 1.5rem; 
+    padding-right: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
     display: inline-block;
